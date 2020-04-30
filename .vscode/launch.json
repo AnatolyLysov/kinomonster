@@ -3,10 +3,11 @@
     // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
     // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": [
-
-
-
+    "configurations": [{
+            "type": "browser-preview",
+            "name": "Browser Preview: Attach",
+            "request": "attach"
+        },
         {
             "type": "browser-preview",
             "request": "launch",
