@@ -1,7 +1,27 @@
 .main {
-    background-color: hsl(212, 83%, 61%);
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-    width: 100%;
+  background-color: rgb(129, 169, 214);
+  padding: 20px;
+  height: 400px;
+}
+.header {
+  background-color: darkslateblue;
+  padding: 20px;
+}
+.logo {
+  background-color: rgb(223, 224, 166);
+  padding: 20px;
+}
+.title {
+  background-color: rgb(171, 224, 166);
+  padding: 20px;
+  font-style: normal;
+  font-family: "Times New Roman";
+}
+.motto {
+  background-color: rgb(235, 175, 230);
+  padding: 20px;
+}
+.tille h1 {
+  margin-left: auto;
+  margin-right: auto;
 }
