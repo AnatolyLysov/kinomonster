@@ -33,5 +33,10 @@
     "sync.gist": "a2d998b59ad6a04ead8f5f5c86edb323",
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
-    }
+    },
+    "cSpell.words": [
+        "Главная",
+        "Кино",
+        "Контакты"
+    ]
 }
