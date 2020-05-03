@@ -138,11 +138,11 @@ ul.menu li a:hover {
 
 .sidebar-container {
   float: right;
-  width: 224;
+  width: 224px;
 }
 
 .sidebar {
-  /*float: right;*/
+  float: right;
   width: 222px;
   padding: 5%;
   margin: 0, 0, 16px, 0;
