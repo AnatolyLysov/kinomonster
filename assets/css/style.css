@@ -1,6 +1,17 @@
-main {
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-size: 1.2em;
+  background-color: #fff;
+  color: #555;
+}
+
+p {
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
 }
 
 input[type="text"],
@@ -29,6 +40,18 @@ h2 {
 
 h2 {
   font-size: 140%;
+}
+
+a {
+  outline: none;
+  text-decoration: underline;
+  color: #aeb002;
+}
+
+a:hover {
+  outline: none;
+  text-decoration: underline;
+  color: #c9cf04;
 }
 
 .header {
@@ -136,4 +159,23 @@ ul.menu li a:hover {
 
 .sidebar h2 {
   color: #136cb2;
+}
+
+.labels-passreg-fields {
+  font-size: 0.7em;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.sidebar ul {
+  margin: 0;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+  margin: 0 0 0 0;
+}
+
+.rating-sidebar {
+  float: right;
 }
