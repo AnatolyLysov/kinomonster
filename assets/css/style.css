@@ -43,7 +43,7 @@ h2 {
 .main,
 .logo,
 .menubar,
-.site_content,
+.site-content,
 .footer {
   margin-left: auto;
   margin-right: auto;
@@ -60,16 +60,16 @@ h2 {
   margin: 0 0 0 9px;
 }
 
-.logo_text h1,
-.logo_text h1 a,
-.logo_text h1 a:hover {
+.logo-text h1,
+.logo-text h1 a,
+.logo-text h1 a:hover {
   padding: 22px 0 0 0;
   color: #fff;
   letter-spacing: 0.1em;
   text-decoration: none;
 }
 
-.logo_text h2 {
+.logo-text h2 {
   font-size: 0.9em;
   padding: 4px 0 0 0;
   color: #999;
@@ -108,12 +108,12 @@ ul.menu li a:hover {
   color: #e4ec04;
 }
 
-.site_content {
+.site-content {
   width: 880px;
   overflow: hidden;
 }
 
-.sidebar_container {
+.sidebar-container {
   float: right;
   width: 224;
 }
