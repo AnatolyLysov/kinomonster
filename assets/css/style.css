@@ -53,13 +53,46 @@ a:hover {
   color: #c9cf04;
 }
 
+ul.menu {
+  float: right;
+}
+
+ul.menu li {
+  float: left;
+  padding: 0 0 0 9px;
+  list-style: none;
+  margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+  font: normal 100% "trebuchet ms", sans-serif;
+  display: block;
+  height: 20px;
+  padding: 6px 35px 5px 28px;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.menu li.selected a {
+  color: #aeb002;
+}
+
+ul.menu li a:hover {
+  color: #e4ec04;
+}
+
+hr {
+  border: solid 1px #e7e5e5;
+  width: 95%;
+}
+
 .header {
   background-color: darkslateblue;
   height: 177px;
   font-size: 0.8em;
   margin-left: 0px;
   margin-right: 0px;
-  min-width: 900px;
+  min-width: 920px;
 }
 
 .main,
@@ -102,36 +135,8 @@ a:hover {
   height: 46px;
 }
 
-ul.menu {
-  float: right;
-}
-
-ul.menu li {
-  float: left;
-  padding: 0 0 0 9px;
-  list-style: none;
-  margin: 1px 2px 0 0;
-}
-
-ul.menu li a {
-  font: normal 100% "trebuchet ms", sans-serif;
-  display: block;
-  height: 20px;
-  padding: 6px 35px 5px 28px;
-  color: #fff;
-  text-decoration: none;
-}
-
-ul.menu li.selected a {
-  color: #aeb002;
-}
-
-ul.menu li a:hover {
-  color: #e4ec04;
-}
-
 .site-content {
-  width: 880px;
+  width: 900px;
   overflow: hidden;
 }
 
@@ -142,7 +147,7 @@ ul.menu li a:hover {
 
 .sidebar {
   float: right;
-  width: 222px;
+  width: 210px;
   padding: 5%;
   margin: 0, 0, 16px, 0;
   border: solid 1px #e2dddd;
@@ -178,6 +183,32 @@ ul.menu li a:hover {
 .rating-sidebar {
   float: right;
 }
+
+.content {
+  text-align: left;
+  width: 670px;
+  padding: 0 0 0 5px;
+  float: left;
+}
+
+.content a {
+  text-decoration: none;
+}
+
+.films-block {
+  margin-bottom: 5%;
+}
+
+.films-block img {
+  border-radius: 5px;
+  border: solid 5px #d6d3d1;
+  width: 22%;
+}
+
+.posts .post-conten {
+  font-size: 0.8em;
+}
+
 
 .footer {
   width: 100%;
