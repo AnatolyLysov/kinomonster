@@ -29,10 +29,9 @@ textarea {
   border: solid 1px #f2f2f2;
 }
 
-
 h1,
 h2 {
-  font: normal 170% 'century gothic', arial;
+  font: normal 170% "century gothic", arial;
   margin: 0 0 15px 0;
   padding: 15px 0 58px 0;
   color: #000;
@@ -79,7 +78,7 @@ a:hover {
 
 .logo h1,
 .logo h2 {
-  font: normal 300% 'century gothic', arial, sans-serif;
+  font: normal 300% "century gothic", arial, sans-serif;
   margin: 0 0 0 9px;
 }
 
@@ -95,7 +94,7 @@ a:hover {
 .logo-text h2 {
   font-size: 0.9em;
   padding: 4px 0 0 0;
-  color: #999;
+  color: #a8aa94;
 }
 
 .menubar {
@@ -115,7 +114,7 @@ ul.menu li {
 }
 
 ul.menu li a {
-  font: normal 100% 'trebuchet ms', sans-serif;
+  font: normal 100% "trebuchet ms", sans-serif;
   display: block;
   height: 20px;
   padding: 6px 35px 5px 28px;
@@ -178,4 +177,26 @@ ul.menu li a:hover {
 
 .rating-sidebar {
   float: right;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  padding: 28px 0 5px 0;
+  text-align: center;
+  background-color: darkslateblue;
+  color: #a8aa94;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #a8aa94;
+  text-decoration: none;
 }
