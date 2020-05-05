@@ -205,10 +205,24 @@ hr {
   width: 22%;
 }
 
-.posts .post-conten {
+.posts .post-content {
   font-size: 0.8em;
 }
 
+.info-film-page {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.info-film-page .label {
+  font-size: 1.2em;
+}
+
+.info-film-page .value {
+  font-size: 1em;
+  color: #49945a;
+  margin-right: 3%;
+}
 
 .footer {
   width: 100%;
