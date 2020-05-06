@@ -7,6 +7,10 @@ body {
   font-size: 1.2em;
   background-color: #fff;
   color: #555;
+  background-image: url("backgnd.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 p {
