@@ -7,10 +7,6 @@ body {
   font-size: 1.2em;
   background-color: #fff;
   color: #555;
-  background-image: url("backgnd.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 p {
@@ -107,7 +103,14 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
-
+/*
+.main {
+  background-image: url("C:\kinomonster\kinomonster\assets\img\breakingbad.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+*/
 .logo {
   width: 880px;
   padding-bottom: 40px;
