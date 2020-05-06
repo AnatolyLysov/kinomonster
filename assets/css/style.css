@@ -257,7 +257,6 @@ hr {
 
 .send {
   margin-bottom: 4%;
-  background-color: #aeb002;
 }
 .send input[type="text"],
 textarea {
@@ -265,13 +264,13 @@ textarea {
 }
 
 .send input[type="text"] {
-  width: 670px;
+  width: 652px;
 
   margin-bottom: 1%;
 }
 
 .send textarea {
-  width: 100%;
+  width: 668px;
   height: 200px;
   margin-bottom: 1%;
 }
