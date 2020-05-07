@@ -103,14 +103,7 @@ hr {
   margin-left: auto;
   margin-right: auto;
 }
-/*
-.main {
-  background-image: url("C:\kinomonster\kinomonster\assets\img\breakingbad.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-*/
+
 .logo {
   width: 880px;
   padding-bottom: 40px;
@@ -299,6 +292,34 @@ textarea {
 
 .send-contact [type="submit"] {
   margin-right: 50%;
+}
+
+.info-film {
+  margin-bottom: 5%;
+  background-color: #f9f9f9;
+  padding: 5%;
+  height: 270px;
+}
+.info-film img {
+  float: left;
+  margin-right: 2%;
+  border-radius: 5px;
+  border: solid 5px #dad7d5;
+}
+
+.button {
+  background-color: #7268ad;
+  padding: 2%;
+  color: white;
+  border-radius: 5px;
+  float: right;
+  margin-top: 5%;
+  clear: both;
+  font-size: 0.8em;
+}
+
+.button a {
+  color: white;
 }
 
 .footer {
