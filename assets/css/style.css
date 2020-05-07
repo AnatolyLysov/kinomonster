@@ -262,7 +262,7 @@ hr {
   padding-left: 2%;
 }
 
-.send {
+.send .send-contact {
   margin-bottom: 4%;
 }
 .send input[type="text"],
@@ -286,14 +286,19 @@ textarea {
   padding: 3%;
   color: white;
   border-radius: 5px;
+  margin-bottom: 3%;
 }
 
-.send_contact input[type="text"] {
+.send-contact input[type="text"] {
   width: 500px;
 }
 
-.send_contact textarea {
+.send-contact textarea {
   width: 516px;
+}
+
+.send-contact [type="submit"] {
+  margin-right: 50%;
 }
 
 .footer {
