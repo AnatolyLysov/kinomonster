@@ -370,3 +370,10 @@ td img {
   color: #a8aa94;
   text-decoration: none;
 }
+
+/*CSS Mobile*/
+@media only screen and (min-device-width :360px) and (max-device-width :640px) {
+  .header {
+    background-color: #257965;
+  }
+}
