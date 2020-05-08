@@ -161,6 +161,7 @@ hr {
   padding: 8px;
   cursor: pointer;
 }
+
 .sidebar h2 {
   color: #136cb2;
 }
@@ -258,6 +259,7 @@ hr {
 .send .send-contact {
   margin-bottom: 4%;
 }
+
 .send input[type="text"],
 textarea {
   border: solid 1px #c3c3c3;
@@ -300,6 +302,7 @@ textarea {
   padding: 5%;
   height: 270px;
 }
+
 .info-film img {
   float: left;
   margin-right: 2%;
@@ -321,6 +324,30 @@ textarea {
 .button a {
   color: white;
 }
+
+table {
+  width: 98%;
+  border: solid #f4f4f4;
+}
+
+td {
+  padding: 2%;
+  border: solid #f4f4f4;
+}
+
+td img {
+  width: 60px;
+  vertical-align: middle;
+}
+
+.center {
+  text-align: center;
+}
+
+.rating {
+  font-weight: bold;
+}
+
 
 .footer {
   width: 100%;
