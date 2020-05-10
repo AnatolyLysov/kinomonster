@@ -431,6 +431,18 @@ td img {
     font: normal 100% "century gothic", arial;
   }
 
-  .films-block {
+  .films-block img {
+    width: 43%;
   }
+
+  .post-content p {
+    line-height: 1.5em;
+    padding: 3%;
+    text-align: left;
+  }
+  .posts {
+    font-size: 120%;
+  }
+
+  /*films.html */
 }
